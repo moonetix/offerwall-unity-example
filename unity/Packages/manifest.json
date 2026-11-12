@@ -1,0 +1,15 @@
+{
+  "scopedRegistries": [
+    {
+      "name": "Moonetix",
+      "url": "https://moonetix.com/upm",
+      "scopes": ["com.moonetix"]
+    }
+  ],
+  "dependencies": {
+    "com.moonetix.offerwall": "2.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  }
+}
