@@ -10,7 +10,7 @@
 [![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS%20%7C%206-222222)](https://moonetix.com/integrations/unity)
 [![Server](https://img.shields.io/badge/server-Node%2022%2C%20zero%20dependencies-339933)](server/)
 
-Two halves: a small Unity project with the [Moonetix](https://moonetix.com) plugin `com.moonetix.offerwall` 2.0.0, and a Node.js server that creates offerwall sessions, credits coins from postbacks and returns the balance. Moonetix is a pay-per-result affiliate network. Players complete offers and earn your coins; you are paid per completed offer.
+Two halves: a small Unity project with the [Moonetix](https://moonetix.com) plugin `com.moonetix.offerwall` 2.0.0, and a Node.js server that creates offerwall sessions, credits coins from postbacks and returns the balance. Moonetix is an affiliate network. Players complete offers and earn your coins; you are paid per completed offer.
 
 > **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-unity-example**
 
