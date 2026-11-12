@@ -1,0 +1,25 @@
+# Server
+node_modules/
+.env
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+npm-debug.log*
+
+# Unity
+unity/[Ll]ibrary/
+unity/[Tt]emp/
+unity/[Oo]bj/
+unity/[Bb]uild/
+unity/[Bb]uilds/
+unity/[Ll]ogs/
+unity/[Uu]ser[Ss]ettings/
+unity/[Mm]emoryCaptures/
+unity/*.csproj
+unity/*.sln
+unity/*.apk
+unity/*.aab
+.vs/
+.idea/
+
+.DS_Store
