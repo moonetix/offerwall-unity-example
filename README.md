@@ -10,7 +10,7 @@
 [![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS%20%7C%206-222222)](https://moonetix.com/integrations/unity)
 [![Server](https://img.shields.io/badge/server-Node%2022%2C%20zero%20dependencies-339933)](server/)
 
-Two halves: a small Unity project with the [Moonetix](https://moonetix.com) plugin `com.moonetix.offerwall` 2.0.0, and a Node.js server that creates offerwall sessions, credits coins from postbacks and returns the balance. Moonetix is an affiliate network. Players complete offers and earn your coins; you are paid per completed offer.
+Two halves: a small Unity project with the [Moonetix](https://moonetix.com) plugin `com.moonetix.offerwall` 2.0.1, and a Node.js server that creates offerwall sessions, credits coins from postbacks and returns the balance. Moonetix is an affiliate network. Players complete offers and earn your coins; you are paid per completed offer.
 
 > **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-unity-example**
 
@@ -73,7 +73,7 @@ https://YOUR_HOST/moonetix/postback?user={user_id}&tx={transaction_id}&event={ev
 
 **2. Open the Unity project**
 
-1. In Unity Hub, choose Add, Add project from disk, and pick the `unity/` folder. The Package Manager installs `com.moonetix.offerwall` 2.0.0 from the Moonetix registry in [`unity/Packages/manifest.json`](unity/Packages/manifest.json).
+1. In Unity Hub, choose Add, Add project from disk, and pick the `unity/` folder. The Package Manager installs `com.moonetix.offerwall` 2.0.1 from the Moonetix registry in [`unity/Packages/manifest.json`](unity/Packages/manifest.json).
 2. In any scene, create an empty GameObject and add `PlayerAccount`, `EarnButton` and `CoinHud`.
 3. On `EarnButton`, set **App Id** to the App ID from the top of your offerwall's settings page. It is 24 characters. It is not the API key.
 4. Drag the `PlayerAccount` component into the **Account** fields of `EarnButton` and `CoinHud`, and `EarnButton` into **Earn Button** of `CoinHud`.
