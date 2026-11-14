@@ -1,0 +1,4 @@
+# Language statistics describe the Unity scripts. The companion server in
+# server/ and the release tooling are support code around them.
+server/** -linguist-detectable
+.github/scripts/** -linguist-detectable
