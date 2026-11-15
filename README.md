@@ -6,13 +6,12 @@
 [![Maintained by Moonetix](https://img.shields.io/badge/maintained%20by-Moonetix-004ABB)](https://moonetix.com)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-Unity%20SDK-004ABB)](https://docs.moonetix.com/unity-sdk)
-[![Get keys](https://img.shields.io/badge/get%20keys-moonetix.com-004ABB)](https://moonetix.com/register?from=github-offerwall-unity-example)
 [![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS%20%7C%206-222222)](https://moonetix.com/integrations/unity)
 [![Server](https://img.shields.io/badge/server-Node%2022%2C%20zero%20dependencies-339933)](server/)
 
 Two halves: a small Unity project with the [Moonetix](https://moonetix.com) plugin `com.moonetix.offerwall` 2.0.1, and a Node.js server that creates offerwall sessions, credits coins from postbacks and returns the balance. Moonetix is an affiliate network. Players complete offers and earn your coins; you are paid per completed offer.
 
-> **Get your App ID and keys: sign up free at https://moonetix.com/register?from=github-offerwall-unity-example**
+> To run it you need your Moonetix App ID and keys: see [Get your keys](#get-your-keys).
 
 ## What you get
 
@@ -182,7 +181,7 @@ npx github:moonetix/postback-tester --preset moonetix \
 
 ## Get your keys
 
-Apply at **https://moonetix.com/register?from=github-offerwall-unity-example**. Applications are reviewed by hand. After approval, add the game as an app, set your coin name and rate, and copy the API key and postback key into `server/.env`.
+Apply at https://moonetix.com/register?from=github-offerwall-unity-example. Applications are reviewed by hand. After approval, add the game as an app, set your coin name and rate, and copy the API key and postback key into `server/.env`.
 
 ## More Moonetix examples
 
